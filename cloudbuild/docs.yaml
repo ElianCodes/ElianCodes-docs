@@ -1,0 +1,15 @@
+steps:
+  - name: 'elianvancutsem/anna'
+    args: ['pnpm', 'install']
+    dir: 'docs'
+    id: install packages
+
+  - name: 'elianvancutsem/anna'
+    args: ['pnpm', 'build']
+    dir: 'docs'
+    id: build files
+
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", "./build/", "gs://docs.elian.codes"]
+    dir: 'docs'
+    id: deploy site
