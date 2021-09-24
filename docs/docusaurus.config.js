@@ -44,25 +44,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'frontend',
-            position: 'left',
-            label: 'Frontend',
-          },
-          {
-            type: 'doc',
-            docId: 'api',
-            position: 'left',
-            label: 'API',
-          },
-          {
-            type: 'doc',
-            docId: 'docs',
+            docId: 'introduction',
             position: 'left',
             label: 'Docs',
           },
           {
-            href: 'https://github.com/elianvancutsem/',
-            label: 'GitHub',
+            href: 'https://www.elian.codes/',
+            label: 'www.elian.codes',
             position: 'right',
           },
         ],

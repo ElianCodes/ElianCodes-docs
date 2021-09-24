@@ -1,6 +1,7 @@
 ---
 id: api
 slug: /api
+sidebar_position: 3
 ---
 
 # API
