@@ -1359,7 +1359,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.2.2_@babel+core@7.15.5
       babel-plugin-polyfill-corejs3: 0.2.5_@babel+core@7.15.5
       babel-plugin-polyfill-regenerator: 0.2.2_@babel+core@7.15.5
-      core-js-compat: 3.18.0
+      core-js-compat: 3.18.1
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
@@ -1411,7 +1411,7 @@ packages:
     resolution: {integrity: sha512-lWcAqKeB624/twtTc3w6w/2o9RqJPaNBhPGK6DKLSiwuVWC7WFkypWyNg+CpZoyJH0jVzv1uMtXZ/5/lQOLtCg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.18.0
+      core-js-pure: 3.18.1
       regenerator-runtime: 0.13.9
     dev: false
 
@@ -1503,7 +1503,7 @@ packages:
       '@docusaurus/utils-validation': 2.0.0-beta.6
       '@slorber/static-site-generator-webpack-plugin': 4.0.1
       '@svgr/webpack': 5.5.0
-      autoprefixer: 10.3.5_postcss@8.3.8
+      autoprefixer: 10.3.6_postcss@8.3.8
       babel-loader: 8.2.2_f5e75caac3b594f23a69b34336794b2d
       babel-plugin-dynamic-import-node: 2.3.0
       boxen: 5.1.2
@@ -1512,7 +1512,7 @@ packages:
       clean-css: 5.2.0
       commander: 5.1.0
       copy-webpack-plugin: 9.0.1_webpack@5.54.0
-      core-js: 3.18.0
+      core-js: 3.18.1
       css-loader: 5.2.7_webpack@5.54.0
       css-minimizer-webpack-plugin: 3.0.2_clean-css@5.2.0+webpack@5.54.0
       cssnano: 5.0.8_postcss@8.3.8
@@ -2572,10 +2572,10 @@ packages:
     resolution: {integrity: sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=}
     dev: false
 
-  /ansi-align/3.0.0:
-    resolution: {integrity: sha512-ZpClVKqXN3RGBmKibdfWzqCY4lnjEuoNzU5T0oEFpfd/z5qJHVarukridD4juLO2FXMiwUQxr9WqQtaYa8XRYw==}
+  /ansi-align/3.0.1:
+    resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
     dependencies:
-      string-width: 3.1.0
+      string-width: 4.2.3
     dev: false
 
   /ansi-colors/3.2.4:
@@ -2733,8 +2733,8 @@ packages:
     hasBin: true
     dev: false
 
-  /autoprefixer/10.3.5_postcss@8.3.8:
-    resolution: {integrity: sha512-2H5kQSsyoOMdIehTzIt/sC9ZDIgWqlkG/dbevm9B9xQZ1TDPBHpNUDW5ENqqQQzuaBWEo75JkV0LJe+o5Lnr5g==}
+  /autoprefixer/10.3.6_postcss@8.3.8:
+    resolution: {integrity: sha512-3bDjTfF0MfZntwVCSd18XAT2Zndufh3Mep+mafbzdIQEeWbncVRUVDjH8/EPANV9Hq40seJ24QcYAyhUsFz7gQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2743,7 +2743,7 @@ packages:
       browserslist: 4.17.1
       caniuse-lite: 1.0.30001260
       fraction.js: 4.1.1
-      nanocolors: 0.1.12
+      nanocolors: 0.2.10
       normalize-range: 0.1.2
       postcss: 8.3.8
       postcss-value-parser: 4.1.0
@@ -2820,7 +2820,7 @@ packages:
     dependencies:
       '@babel/core': 7.15.5
       '@babel/helper-define-polyfill-provider': 0.2.3_@babel+core@7.15.5
-      core-js-compat: 3.18.0
+      core-js-compat: 3.18.1
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2926,7 +2926,7 @@ packages:
     resolution: {integrity: sha512-9gYgQKXx+1nP8mP7CzFyaUARhg7D3n1dF/FnErWmu9l6JvGpNUN278h0aSb+QjoiKSWG+iZ3uHrcqk0qrY9RQQ==}
     engines: {node: '>=10'}
     dependencies:
-      ansi-align: 3.0.0
+      ansi-align: 3.0.1
       camelcase: 6.2.0
       chalk: 4.1.2
       cli-boxes: 2.2.1
@@ -3149,7 +3149,7 @@ packages:
       glob-parent: 3.1.0
       inherits: 2.0.4
       is-binary-path: 1.0.1
-      is-glob: 4.0.1
+      is-glob: 4.0.2
       normalize-path: 3.0.0
       path-is-absolute: 1.0.1
       readdirp: 2.2.1
@@ -3166,7 +3166,7 @@ packages:
       braces: 3.0.2
       glob-parent: 5.1.2
       is-binary-path: 2.1.0
-      is-glob: 4.0.1
+      is-glob: 4.0.2
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
@@ -3438,20 +3438,20 @@ packages:
       webpack: 5.54.0
     dev: false
 
-  /core-js-compat/3.18.0:
-    resolution: {integrity: sha512-tRVjOJu4PxdXjRMEgbP7lqWy1TWJu9a01oBkn8d+dNrhgmBwdTkzhHZpVJnEmhISLdoJI1lX08rcBcHi3TZIWg==}
+  /core-js-compat/3.18.1:
+    resolution: {integrity: sha512-XJMYx58zo4W0kLPmIingVZA10+7TuKrMLPt83+EzDmxFJQUMcTVVmQ+n5JP4r6Z14qSzhQBRi3NSWoeVyKKXUg==}
     dependencies:
       browserslist: 4.17.1
       semver: 7.0.0
     dev: false
 
-  /core-js-pure/3.18.0:
-    resolution: {integrity: sha512-ZnK+9vyuMhKulIGqT/7RHGRok8RtkHMEX/BGPHkHx+ouDkq+MUvf9mfIgdqhpmPDu8+V5UtRn/CbCRc9I4lX4w==}
+  /core-js-pure/3.18.1:
+    resolution: {integrity: sha512-kmW/k8MaSuqpvA1xm2l3TVlBuvW+XBkcaOroFUpO3D4lsTGQWBTb/tBDCf/PNkkPLrwgrkQRIYNPB0CeqGJWGQ==}
     requiresBuild: true
     dev: false
 
-  /core-js/3.18.0:
-    resolution: {integrity: sha512-WJeQqq6jOYgVgg4NrXKL0KLQhi0CT4ZOCvFL+3CQ5o7I6J8HkT5wd53EadMfqTDp1so/MT1J+w2ujhWcCJtN7w==}
+  /core-js/3.18.1:
+    resolution: {integrity: sha512-vJlUi/7YdlCZeL6fXvWNaLUPh/id12WXj3MbkMw5uOyF0PfWPBNOCNbs53YqgrvtujLNlt9JQpruyIKkUZ+PKA==}
     requiresBuild: true
     dev: false
 
@@ -3549,7 +3549,7 @@ packages:
     dependencies:
       clean-css: 5.2.0
       cssnano: 5.0.8_postcss@8.3.8
-      jest-worker: 27.2.0
+      jest-worker: 27.2.2
       p-limit: 3.1.0
       postcss: 8.3.8
       schema-utils: 3.1.1
@@ -3632,7 +3632,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      autoprefixer: 10.3.5_postcss@8.3.8
+      autoprefixer: 10.3.6_postcss@8.3.8
       cssnano-preset-default: 5.1.4_postcss@8.3.8
       postcss: 8.3.8
       postcss-discard-unused: 5.0.1_postcss@8.3.8
@@ -3843,7 +3843,7 @@ packages:
     dependencies:
       globby: 11.0.4
       graceful-fs: 4.2.8
-      is-glob: 4.0.1
+      is-glob: 4.0.2
       is-path-cwd: 2.2.0
       is-path-inside: 3.0.3
       p-map: 4.0.0
@@ -4669,14 +4669,14 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
     dependencies:
-      is-glob: 4.0.1
+      is-glob: 4.0.2
     dev: false
 
   /glob-parent/6.0.1:
     resolution: {integrity: sha512-kEVjS71mQazDBHKcsq4E9u/vUzaLcw1A8EtUeydawvIWQCJM0qQ08G1H7/XTjFUulla6XQiDOG6MXSaG0HDKog==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      is-glob: 4.0.1
+      is-glob: 4.0.2
     dev: false
 
   /glob-to-regexp/0.4.1:
@@ -5098,7 +5098,7 @@ packages:
     engines: {node: '>=4.0.0'}
     dependencies:
       http-proxy: 1.18.1_debug@4.3.2
-      is-glob: 4.0.1
+      is-glob: 4.0.2
       lodash: 4.17.21
       micromatch: 3.1.10
     transitivePeerDependencies:
@@ -5427,8 +5427,8 @@ packages:
       is-extglob: 2.1.1
     dev: false
 
-  /is-glob/4.0.1:
-    resolution: {integrity: sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==}
+  /is-glob/4.0.2:
+    resolution: {integrity: sha512-ZZTOjRcDjuAAAv2cTBQP/lL59ZTArx77+7UzHdWW/XB1mrfp7DEaVpKmZ0XIzx+M7AxfhKcqV+nMetUQmFifwg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       is-extglob: 2.1.1
@@ -5624,8 +5624,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /jest-worker/27.2.0:
-    resolution: {integrity: sha512-laB0ZVIBz+voh/QQy9dmUuuDsadixeerrKqyVpgPz+CCWiOYjOBabUXHIXZhsdvkWbLqSHbgkAHWl5cg24Q6RA==}
+  /jest-worker/27.2.2:
+    resolution: {integrity: sha512-aG1xq9KgWB2CPC8YdMIlI8uZgga2LFNcGbHJxO8ctfXAydSaThR4EewKQGg3tBOC+kS3vhPGgymsBdi9VINjPw==}
     engines: {node: '>= 10.13.0'}
     dependencies:
       '@types/node': 16.10.1
@@ -6210,12 +6210,12 @@ packages:
     resolution: {integrity: sha512-2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==}
     dev: false
 
-  /nanocolors/0.2.3:
-    resolution: {integrity: sha512-RxGTOApG8prHMA08UBMOT6qYzcBBW2EMBv7SRBqoXg/Dqp6G3yT7kLy1tpFuYLO+5h7eajmdiIHJA8oewN58XQ==}
+  /nanocolors/0.2.10:
+    resolution: {integrity: sha512-i+EDWGsJClQwR/bhLIG/CObZZwaYaS5qt+yjxZbfV+77QiNHNzE9nj4d9Ut1TGZ0R0eSwPcQWzReASzXuw/7oA==}
     dev: false
 
-  /nanoid/3.1.25:
-    resolution: {integrity: sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==}
+  /nanoid/3.1.28:
+    resolution: {integrity: sha512-gSu9VZ2HtmoKYe/lmyPFES5nknFrHa+/DT9muUFWFMi6Jh9E1I7bkvlQ8xxf1Kos9pi9o8lBnIOkatMhKX/YUw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: false
@@ -7137,8 +7137,8 @@ packages:
     resolution: {integrity: sha512-GT5bTjjZnwDifajzczOC+r3FI3Cu+PgPvrsjhQdRqa2kTJ4968/X9CUce9xttIB0xOs5c6xf0TCWZo/y9lF6bA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanocolors: 0.2.3
-      nanoid: 3.1.25
+      nanocolors: 0.2.10
+      nanoid: 3.1.28
       source-map-js: 0.6.2
     dev: false
 
@@ -8503,7 +8503,7 @@ packages:
       uglify-js:
         optional: true
     dependencies:
-      jest-worker: 27.2.0
+      jest-worker: 27.2.2
       p-limit: 3.1.0
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
