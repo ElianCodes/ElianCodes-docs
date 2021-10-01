@@ -8,6 +8,10 @@ sidebar_position: 1
 
 Welcome to the ElianCodes Documentation. On this website / archive I will publish some documentation on how I build my websites, API and cloud-infrastructure. This way, I hope that some of you will get some value out of this.
 
+## @elianvancutsem
+
+Some explaination, code examples and README's from the NPM packages I've created (and am creating) over time.
+
 ## API
 
 The chapter API, goes deeper into how the ElianCodes API works and what technologies it uses. It even might contain some helpful info on how to build your own API and how to integrate it with other things like Google Cloud or a front-end.

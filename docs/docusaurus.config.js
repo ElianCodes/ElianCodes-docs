@@ -66,6 +66,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
+                label: '@elianvancutsem',
+                to: '/docs/@elianvancutsem/',
+              },
+              {
                 label: 'API',
                 to: '/docs/API/',
               },
